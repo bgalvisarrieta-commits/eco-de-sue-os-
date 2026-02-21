@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Eco de Sueño - Multicultural. Semillero Tamba y la esencia musical de Barranco de Loba.">
+
+<meta name="author" content="azusx">
+<meta name="creator" content="azusx">
+
+<title>Eco de Sueño | Semillero Tamba</title>
+
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+  background:#0a0a0a;
+  color:#e0e0e0;
+  line-height:1.6;
+  overflow-x:hidden;
+}
+
+.fade-in{
+  opacity:0;
+  transform:translateY(40px);
+  transition:all 1s ease;
+}
+.fade-in.visible{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.hero{
+  height:100vh;
+  min-height:720px;
+  background:
+  linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.52) 50%, rgba(0,0,0,0.85)),
+  url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=2400')
+  center/cover no-repeat;
+  background-attachment:fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+@media(max-width:768px){
+  .hero{background-attachment:scroll;}
+}
+
+.hero-content{max-width:1000px}
+
+.hero h1{
+  font-size:clamp(3.5rem,10vw,8rem);
+  font-weight:900;
+  letter-spacing:-2px;
+  margin-bottom:.6rem;
+  line-height:.9;
+  color:#fff;
+  text-shadow:0 5px 30px rgba(0,0,0,.85);
+}
+
+.subtitle{
+  font-size:clamp(1rem,3vw,1.8rem);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  color:#c084fc;
+  margin-bottom:3rem;
+  font-weight: 300;
+}
+
+.btn-primary{
+  background:linear-gradient(90deg,#8b5cf6,#c084fc);
+  color:#fff;
+  padding:1.2rem 2rem;
+  border-radius:60px;
+  text-decoration:none;
+  font-size:0.95rem;
+  font-weight:700;
+  display:inline-block;
+  transition:.35s;
+  box-shadow:0 8px 25px rgba(139,92,246,.4);
+  text-transform: uppercase;
+  margin: 10px;
+  min-width: 280px;
+}
+.btn-primary:hover{
+  transform:translateY(-5px);
+  box-shadow:0 15px 40px rgba(139,92,246,.6);
+}
+
+.platforms{
+  margin-top:4rem;
+  display:flex;
+  justify-content:center;
+  gap:2rem;
+  font-size:3rem;
+}
+.platforms a{
+  color:#fff;
+  transition:.3s;
+}
+.platforms a:hover{
+  color:#c084fc;
+  transform:scale(1.1);
+}
+
+.content-section{
+  padding:6rem 5%;
+  background:#111;
+  text-align:center;
+}
+
+.content-section h2{
+  font-size:clamp(2rem,5vw,3rem);
+  margin-bottom:1rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer{
+  padding:3rem 5%;
+  text-align:center;
+  background:#050505;
+  font-size:.9rem;
+  color:#666;
+  border-top:1px solid #111;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content fade-in">
+    <h1>Eco de Sueño</h1>
+    <div class="subtitle">Multicultural | Semillero Tamba</div>
+
+    <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer" class="btn-primary">
+      Escuchar en Spotify
+    </a>
+
+    <div class="platforms">
+      <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer" title="Spotify">
+        <i class="fab fa-spotify"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCxomvtlk_9yKpha7KKUUtQQ" target="_blank" rel="noopener noreferrer" title="YouTube Eco de Sueño">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section fade-in">
+  <h2>Enlaces Oficiales</h2>
+  <p style="color:#aaa; margin-bottom: 3rem;">Explora nuestra música y proyectos culturales.</p>
+
+  <div class="buttons-container">
+    <a href="https://www.youtube.com/channel/UCxomvtlk_9yKpha7KKUUtQQ" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-primary">
+       <i class="fab fa-youtube" style="margin-right: 10px;"></i> ECO DE SUEÑO
+    </a>
+
+    <a href="https://www.youtube.com/@breinerenrriquegalvisarrie6912" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-primary" 
+       style="background: linear-gradient(90deg, #f59e0b, #d97706);">
+       <i class="fas fa-seedling" style="margin-right: 10px;"></i> SEMILLERO TAMBA
+    </a>
+
+    <a href="https://www.youtube.com/results?search_query=musica+de+barranco+de+loba" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-primary" 
+       style="background: linear-gradient(90deg, #ff0000, #cc0000);">
+       <i class="fab fa-youtube" style="margin-right: 10px;"></i> MÚSICA DE BARRANCO
+    </a>
+
+    <a href="https://www.google.com/search?q=barranco+de+lo+ba" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-primary" 
+       style="background: linear-gradient(90deg, #0284c7, #0ea5e9);">
+       <i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> SOBRE BARRANCO DE LOBA
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Eco de Sueño – Multicultural</p>
+  <p>Barranco de Loba, Bolívar, Colombia</p>
+</footer>
+
+<div style="position:absolute; left:-9999px; opacity:0;">azusx</div>
+
+<script>
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+
+</body>
+</html>
